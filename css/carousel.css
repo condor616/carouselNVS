@@ -17,7 +17,7 @@ div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div
 	overflow: hidden;	
 }
 
- div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata a h2{
+ div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata h2 a{
 	color:#ffffff;
 	font-size:32px;
 	margin: 0 10px 0 0;
@@ -46,6 +46,8 @@ div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div
 
 div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link {
    margin-top:15px;
+   bottom: 10px;
+   height:30px;
 }
 
 div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link a,
