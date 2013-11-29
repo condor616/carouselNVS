@@ -1,0 +1,77 @@
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container{
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	top: 20px;
+	left: 75px;
+	width: 800px;
+	height: 265px;
+	overflow:hidden;
+	color:#ffffff;
+	position: absolute;
+	display:table;
+}
+
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata{
+	display:table-cell;
+	text-align: left;
+   	vertical-align: middle;
+	overflow: hidden;	
+}
+
+ div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata a h2{
+	color:#ffffff;
+	font-size:32px;
+	margin: 0 10px 0 0;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	width: auto;
+	
+	/*Overwrite*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=7,direction=135,color=000000);
+	background: none;
+    font-family: inherit;
+    font-weight:bolder;
+    line-height: inherit;
+    padding:inherit;
+    position:inherit;
+}
+
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.desc{
+	color:#ffffff;
+	font-size: 15px;
+    font-weight: lighter;
+	line-height: 1.2em;
+	margin: 15px 10px 0 0;
+	display:block;
+	width:auto;
+}
+
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link {
+   margin-top:15px;
+}
+
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link a,
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link a:visited,
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link a:active,
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata div.lll-link a:hover{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons{
+	bottom: 40px;
+    left: 75px;
+    position: absolute;
+}
+
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons a {
+	background-color:#fcaa2a;
+	width: 100px;
+	float:left;
+	margin-right:10px;
+	box-shadow: 4px 5px 10px -2px #333333;
+	line-height: 2.2em;
+	text-align: center;
+	color:#714510;
+	text-transform:uppercase;
+	font-size:0.9em;
+	font-weight:600;
+}
