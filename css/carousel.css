@@ -1,8 +1,8 @@
 div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container{
 	font-family: Verdana,Arial,Helvetica,sans-serif;
 	top: 20px;
-	left: 75px;
-	max-width:800px;
+	/*left: 75px;
+	max-width:800px;*/
 	width: auto;
 	height: 265px;
 	overflow:hidden;
@@ -10,6 +10,17 @@ div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container{
 	position: absolute;
 	display:table;
 }
+
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container.left{
+	max-width:auto !important;
+	left:75px !important;
+}
+
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container.right{
+	max-width:520px !important;
+	left:390px !important;
+}
+
 
 div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div.lll-metadata{
 	display:table-cell;
@@ -61,8 +72,16 @@ div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.container div
 
 div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons{
 	bottom: 40px;
-    left: 75px;
+    /*left: 75px;*/
     position: absolute;
+}
+
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons.left{
+    left: 75px;
+}
+
+div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons.right{
+    left: 390px;
 }
 
 div#wrapper div#container div.stage div#nvs-LLL-carousel ul li div.share-buttons a {
